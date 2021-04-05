@@ -1,6 +1,7 @@
-require 'nokogiri'
-require 'httparty'
 require 'byebug'
+require 'httparty'
+require 'nokogiri'
+
 
 def scraper
   url = 'https://www.lupus.org/'
