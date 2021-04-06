@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Build a Web scraper
+# Health News Web scraper
 
 > This is web scraper to extract the latest health news from lupus.org
 
