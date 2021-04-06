@@ -1,4 +1,4 @@
-SAMPLE = %{
+SAMPLE = %(
   <main>
     <div class="news-resources-promo"></div>
     <div class="news-resources-promo">
@@ -13,4 +13,4 @@ SAMPLE = %{
       </div>
     </div>
   </main>
-}.freeze
+).freeze

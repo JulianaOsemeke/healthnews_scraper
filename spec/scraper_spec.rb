@@ -10,6 +10,5 @@ describe NewsScraper do
       stub_request(:get, 'https://www.lupus.org/').to_return(status: 200, body: SAMPLE)
       expect(scraper.scrap.size).to be 1
     end
-
   end
 end
