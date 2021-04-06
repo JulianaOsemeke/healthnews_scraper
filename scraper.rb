@@ -8,8 +8,7 @@ def scraper
   parsed_page = Nokogiri::HTML(unparsed_page)
   news_wrap = parsed_page.css('.news-resources-promo')[1]
   news_items = news_wrap.css('.news-resources-promo-item')
-  content = news_items.map { |item| item.at_css('.news-resources-promo-item-title').text }
-  byebug
+  news_items.map { |item| item.at_css('.news-resources-promo-item-title').text }
 end
 
-scraper
+puts scraper

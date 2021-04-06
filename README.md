@@ -2,7 +2,7 @@
 
 # Build a Web scraper
 
-> This is web scraper for latest health news from lupus.org
+> This is web scraper to extract the latest health news from lupus.org
 
 ![screenshot](./app_screenshot.png)
 
@@ -11,8 +11,6 @@ Additional description about the project and its features.
 ## Built With
 
 - Ruby
-- Frameworks
-- Technologies used
 
 ## Live Demo
 
