@@ -2,52 +2,39 @@
 
 # Health News Web scraper
 
-> This is web scraper to extract the latest health news from lupus.org
+> This is a simple web scraper to extract the latest health news from lupus.org website.
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+>SLE lupus is an autoimmune disease that affects mostly women in their productive years. It is relatively unknown but quite common. The lupus.org website is dedicated to providing vital information on medication, latest research news, lifestyle tips and other resources to the over 2 million sufferers of lupus globally. This scraper aims to extract latest news from the website.
 
 ## Built With
-
 - Ruby
 
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
+### Installations
+- Install the following gems
+-byebug
+-httparty
+-nokogiri
 
 ### Usage
+To get a local copy up and running follow these simple example steps.
 
-### Run tests
+-Clone the master repository on your system locally by running this command : git@github.com:JulianaOsemeke/healthnews_scraper.git
 
-### Deployment
+-Run bin/main to get the first four(4) headlines
 
 
+### Tests
+- rspec
 
 ## Authors
 
-👤 **Author1**
+👤 **Author**
 
 - GitHub: [@JulianaOsemeke](https://github.com/JulianaOsemeke)
 - Twitter: [@JulianaOsemeke](https://twitter.com/JulianaOsemeke)
 - LinkedIn: [@julianaosemeke](https://linkedin.com/in/julianaosemeke)
-
-
 
 ## 🤝 Contributing
 
