@@ -12,4 +12,3 @@ class NewsScraper
     news_items.map { |item| item.at_css('.news-resources-promo-item-title').text }
   end
 end
-

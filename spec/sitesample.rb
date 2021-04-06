@@ -13,4 +13,4 @@ SAMPLE = %{
       </div>
     </div>
   </main>
-}     
+}.freeze

@@ -11,6 +11,5 @@ describe NewsScraper do
       expect(scraper.scrap.size).to be 1
     end
 
-    # it 'correctly scrapes a '
   end
 end
