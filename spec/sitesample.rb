@@ -1,4 +1,4 @@
-# rubocop:disable Metrics/ModuleLength
+# rubocop:disable Layout/LineLength
 
 SAMPLE = %(
   <main>
@@ -25,4 +25,4 @@ SAMPLE = %(
   </main>
 ).freeze
 
-# rubocop:enable Metrics/ModuleLength
+# rubocop:enable Layout/LineLength
