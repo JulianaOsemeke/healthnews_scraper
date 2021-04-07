@@ -1,3 +1,5 @@
+# rubocop:disable Metrics/ModuleLength
+
 SAMPLE = %(
   <main>
   <div>
@@ -22,4 +24,5 @@ SAMPLE = %(
     </div>
   </main>
 ).freeze
-    
+
+# rubocop:enable Metrics/ModuleLength

@@ -20,6 +20,5 @@ describe NewsScraper do
       stub_request(:get, 'https://www.lupus.org/news').to_return(status: 200, body: SAMPLE)
       expect(scraper.scrap[0].date).to eq ('April 7, 2021')
     end
-
   end
 end
