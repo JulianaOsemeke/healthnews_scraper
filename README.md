@@ -6,7 +6,7 @@
 
 ![screenshot](Assets/Image/Terminal.png)
 
->SLE lupus is an autoimmune disease that affects mostly women in their productive years. It is relatively unknown but quite common. The lupus.org website is dedicated to providing vital information on medication, latest research news, lifestyle tips and other resources to the over 2 million sufferers of lupus globally. This scraper aims to extract latest news from the website.
+>SLE lupus is an autoimmune disease that affects mostly women in their productive years. It is relatively unknown but quite common. The lupus.org website is dedicated to providing vital information on medication, latest research news, lifestyle tips and other resources to the over five (5) million sufferers of lupus globally. This application aims to extract latest news title, date and summary from the website.
 
 ## Built With
 - Ruby
@@ -19,15 +19,17 @@ To get a local copy up and running follow these simple example steps.
 
 -Clone the master repository on your system locally by running this command : git@github.com:JulianaOsemeke/healthnews_scraper.git
 
--Run bin/main to get the news
+-cd healthnews_scraper
+
+-Run bin/main
 
 
 ### Tests
 - Run rspec in terminal
 
-## Authors
+## Author
 
-👤 **Author**
+👤 **Juliana Osemeke**
 
 - Github: [![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JulianaOsemeke)
 - Twitter: [![](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/JulianaOsemeke)
