@@ -12,10 +12,7 @@
 - Ruby
 
 ### Installations
-- Install the following gems
--byebug
--httparty
--nokogiri
+-Run `bundle install` from root folder
 
 ### Usage
 To get a local copy up and running follow these simple example steps.
