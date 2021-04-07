@@ -1,8 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'byebug'
-gem 'httparty'
-gem 'nokogiri'
+gem 'puppeteer-ruby'
 
 group :test do
   gem 'rspec', '~>3.9'
