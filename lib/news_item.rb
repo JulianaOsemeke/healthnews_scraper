@@ -6,5 +6,4 @@ class NewsItem
     @summary = summary
     @date = date
   end
-
 end
