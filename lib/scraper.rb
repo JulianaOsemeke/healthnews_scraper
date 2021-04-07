@@ -1,14 +1,19 @@
 require 'byebug'
-require 'httparty'
-require 'nokogiri'
+require 'puppeteer'
+require_relative './news_item'
+
 
 class NewsScraper
   def scrap
-    url = 'https://www.lupus.org/'
-    unparsed_page = HTTParty.get(url)
-    parsed_page = Nokogiri::HTML(unparsed_page)
-    news_wrap = parsed_page.css('.news-resources-promo')[1]
-    news_items = news_wrap.css('.news-resources-promo-item')
-    news_items.map { |item| item.at_css('.news-resources-promo-item-title').text }
+    Puppeteer.launch(headless: true) do |browser|
+      page = browser.pages.first || browser.new_page
+      page.goto('https://www.lupus.org/news')
+      items = page.query_selector_all('.filtered-content-item-content').map do |item|
+        title = item.eval_on_selector('.filtered-content-item-title', 'div => div.innerText')
+        summary = item.eval_on_selector('.filtered-content-item-summary', 'div => div.innerText')
+        date = item.eval_on_selector('.filtered-content-item-date', 'div => div.innerText')
+        NewsItem.new(title,summary,date)
+      end
+    end
   end
 end
