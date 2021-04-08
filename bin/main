@@ -1,0 +1,15 @@
+#! /usr/bin/env ruby
+require_relative '../lib/scraper'
+
+items = NewsScraper.new.scrap
+p items.size
+items.each do |item|
+  puts '--------------------------------------------------------------------'
+  puts
+  puts item.title
+  puts item.date
+  puts
+  puts item.summary
+  puts
+end
+puts '------------------------------------------------------------------------'
