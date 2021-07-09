@@ -19,7 +19,7 @@ To get a local copy up and running follow these simple example steps.
 
 -Clone the master repository on your system locally by running this command : git@github.com:JulianaOsemeke/healthnews_scraper.git
 
--cd <healthnews_scraper>
+-cd healthnews_scraper
 
 -Run bin/main
 
